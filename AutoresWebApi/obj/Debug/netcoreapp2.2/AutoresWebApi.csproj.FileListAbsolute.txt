@@ -1,0 +1,14 @@
+E:\Udemy\webapi\AutoresWebApi\AutoresWebApi\bin\Debug\netcoreapp2.2\AutoresWebApi.deps.json
+E:\Udemy\webapi\AutoresWebApi\AutoresWebApi\bin\Debug\netcoreapp2.2\AutoresWebApi.runtimeconfig.json
+E:\Udemy\webapi\AutoresWebApi\AutoresWebApi\bin\Debug\netcoreapp2.2\AutoresWebApi.runtimeconfig.dev.json
+E:\Udemy\webapi\AutoresWebApi\AutoresWebApi\bin\Debug\netcoreapp2.2\AutoresWebApi.dll
+E:\Udemy\webapi\AutoresWebApi\AutoresWebApi\bin\Debug\netcoreapp2.2\AutoresWebApi.pdb
+E:\Udemy\webapi\AutoresWebApi\AutoresWebApi\obj\Debug\netcoreapp2.2\AutoresWebApi.csprojAssemblyReference.cache
+E:\Udemy\webapi\AutoresWebApi\AutoresWebApi\obj\Debug\netcoreapp2.2\AutoresWebApi.csproj.CoreCompileInputs.cache
+E:\Udemy\webapi\AutoresWebApi\AutoresWebApi\obj\Debug\netcoreapp2.2\AutoresWebApi.RazorAssemblyInfo.cache
+E:\Udemy\webapi\AutoresWebApi\AutoresWebApi\obj\Debug\netcoreapp2.2\AutoresWebApi.RazorAssemblyInfo.cs
+E:\Udemy\webapi\AutoresWebApi\AutoresWebApi\obj\Debug\netcoreapp2.2\AutoresWebApi.AssemblyInfoInputs.cache
+E:\Udemy\webapi\AutoresWebApi\AutoresWebApi\obj\Debug\netcoreapp2.2\AutoresWebApi.AssemblyInfo.cs
+E:\Udemy\webapi\AutoresWebApi\AutoresWebApi\obj\Debug\netcoreapp2.2\AutoresWebApi.RazorTargetAssemblyInfo.cache
+E:\Udemy\webapi\AutoresWebApi\AutoresWebApi\obj\Debug\netcoreapp2.2\AutoresWebApi.dll
+E:\Udemy\webapi\AutoresWebApi\AutoresWebApi\obj\Debug\netcoreapp2.2\AutoresWebApi.pdb
