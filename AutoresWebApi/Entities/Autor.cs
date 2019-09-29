@@ -11,5 +11,6 @@ namespace AutoresWebApi.Entities
         public int  id { get; set; }
         [Required]
         public string nombre { get; set; }
-}
+        public List<Libro> Libros { get; set; }
+    }
 }
