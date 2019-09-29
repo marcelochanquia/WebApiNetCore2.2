@@ -42,7 +42,7 @@ namespace AutoresWebApi.Controllers
         {
             context.Libros.Add(Libro);
             context.SaveChanges();
-            return new CreatedAtRouteResult("ObtenerLibro", new { Id = Libro.id }, Libro);
+            return new CreatedAtRouteResult("ObtenerLibro", new { Id = Libro.Id }, Libro);
         }
         //actualizar
         [HttpPut("{id}")]//inidcamos que el id viene en la url
@@ -67,7 +67,7 @@ namespace AutoresWebApi.Controllers
                 return NotFound();
             }
 
-            context.Libros.Remove(libro);// si lo encuentra lo borra
+            context.Libros.Remove(libro);// si lo en|||cuentra lo borra
             context.SaveChanges();
             return libro;
 

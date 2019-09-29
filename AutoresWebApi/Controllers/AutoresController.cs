@@ -25,12 +25,18 @@ namespace AutoresWebApi.Controllers
         public ActionResult<IEnumerable<Autor>> Get()
         //action result entidad, devuelve un action result error 404, etc; o una entidad  
         {
-            return context.Autores.ToList();
+            return context.Autores.Include(x=>x.Libros).ToList();
+        }
+        [HttpGet("Primer")]
+        public ActionResult<Autor> GetPrimerAutor()
+        //action result entidad, devuelve un action result error 404, etc; o una entidad  
+        {
+            return context.Autores.FirstOrDefault();
         }
         [HttpGet("{id}", Name = "ObtenerAutor")]//inidcamos que el id viene en la url
         public ActionResult<Autor> Get(int Id)
         {
-            var autor = context.Autores.FirstOrDefault(x => x.id == Id);
+            var autor = context.Autores.Include(x=>x.Libros).FirstOrDefault(x => x.id == Id);
             if (autor == null)
             {
                 return NotFound();
